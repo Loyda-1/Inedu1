@@ -1,0 +1,42 @@
+footer{
+	background: cornflowerblue;
+}
+
+footer .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 30px;
+	color: #fff;
+	font-weight: 800;
+}
+
+.copy{
+	font-size: 20px;
+	padding: 20px;
+}
+
+.red-soc{
+	width: 500%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.red-soc a{ 
+	color: #fff;
+	text-decoration: none;
+}
+
+
+@media(min-width: 768px){
+	.red-soc{
+		width: auto;
+		font-size: 38px;
+		padding: 10px;
+	}
+
+	footer .contenedor{
+		justify-content: space-between;
+	}
+}
+
